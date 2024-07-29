@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lkmlfmt"
+version = "0.0.1"
+dependencies = [
+  "lkml>=1,<2"
+]
+requires-python = ">=3.7"
+description = "A lookml formatter based on lkml."
+readme = "README.md"
+keywords = [
+  "lookml",
+  "lkml",
+  "looker",
+  "formatter"
+]
+
+[project.scripts]
+lkmlfmt = "lkmlfmt.cli:cli"
