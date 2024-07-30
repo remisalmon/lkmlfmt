@@ -16,5 +16,6 @@ def cli():
             file_object.seek(0)
             lkml.dump(data, file_object)
             file_object.truncate()
+            file_object.write("\n")
 
     return
