@@ -18,5 +18,8 @@ keywords = [
   "formatter"
 ]
 
+[project.urls]
+Homepage = "https://github.com/remisalmon/lkmlfmt"
+
 [project.scripts]
 lkmlfmt = "lkmlfmt.cli:cli"
